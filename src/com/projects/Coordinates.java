@@ -1,4 +1,4 @@
-import java.util.Objects;
+package com.projects;
 
 public class Coordinates {
     public final File file; //вертикаль
@@ -25,5 +25,13 @@ public class Coordinates {
         int result = file.hashCode();
         result = 31 * result + rank.hashCode();
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Coordinates{" +
+                "file=" + file +
+                ", rank=" + rank +
+                '}';
     }
 }

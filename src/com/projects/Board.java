@@ -1,5 +1,7 @@
-import piece.Pawn;
-import piece.Piece;
+package com.projects;
+
+import com.projects.piece.Pawn;
+import com.projects.piece.Piece;
 
 import java.util.HashMap;
 
